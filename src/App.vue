@@ -1,9 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/Label">++</router-link> |
-      <router-link to="/Statistics">结算</router-link>
+
     </div>
     <router-view/>
   </div>
@@ -19,7 +17,7 @@
 }
 
 #nav {
-  padding: 30px;
+  padding: 1px;
 
   a {
     font-weight: bold;
