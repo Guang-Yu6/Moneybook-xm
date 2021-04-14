@@ -1,20 +1,14 @@
 <template>
-  <div>
-    <div>
-      标签页面了啦
-    </div>
-    <Nav/>
-  </div>
-
+  <Layout>
+    标签页嗷
+  </Layout>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
 import {Component} from 'vue-property-decorator';
-import Nav from '@/components/Nav.vue';
 
-
-@Component({components:{Nav}})
+@Component({components:{}})
 export default class Label extends Vue {
 
 }

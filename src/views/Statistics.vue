@@ -1,18 +1,13 @@
 <template>
-  <div>
-    <div>
-    这是结算页面知道了
-    </div>
-    <Nav/>
-  </div>
-
+  <Layout>
+    统计页嗷
+  </Layout>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
-import Nav from '@/components/Nav.vue';
 import {Component} from 'vue-property-decorator';
-@Component({components:{Nav}})
+@Component({components:{}})
 export default class Statistics extends Vue {
 
 }

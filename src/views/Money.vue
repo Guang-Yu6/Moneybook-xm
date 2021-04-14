@@ -1,19 +1,15 @@
 <template>
-  <div class="nav-wrapper">
-    <div class="content">
-      最大的主页┗|｀O′|┛ 嗷~~
-      <br/>
-    </div>
-    <Nav/>
-  </div>
+  <Layout>
+    最大的主页┗|｀O′|┛ 嗷~~
+  </Layout>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
-import Nav from '@/components/Nav.vue';
+
 import {Component} from 'vue-property-decorator';
 
-@Component({components:{Nav}})
+@Component({components:{}})
 export default class Home extends Vue {
 
 
