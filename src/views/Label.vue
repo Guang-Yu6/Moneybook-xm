@@ -1,13 +1,12 @@
 <template>
-  <div>最大的主页┗|｀O′|┛ 嗷~~</div>
+<div>标签页面了啦</div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
 import {Component} from 'vue-property-decorator';
-
 @Component
-export default class Home extends Vue {
+export default class Label extends Vue {
 
 }
 </script>
